@@ -5,8 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default class App extends Component {
   pageSize = 15;
-  // apiKey = process.env.REACT_APP_NEWS_API;
-  apiKey = "f747503257864701a8d0114dff0dbfcf";
+  apiKey = process.env.REACT_APP_NEWS_API;
 
   render() {
     return (
