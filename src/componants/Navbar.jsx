@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-export default class Navbar extends Component {
-  render() {
-    return (
-      <nav className="navbar navbar-expand-lg bg-body-secondary">
+const Navbar = () => {
+  return (
+    <div>
+      <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             NewsMonkey
@@ -66,6 +66,8 @@ export default class Navbar extends Component {
           </div>
         </div>
       </nav>
-    );
-  }
-}
+    </div>
+  );
+};
+
+export default Navbar;
